@@ -65,7 +65,7 @@ public class Problema01 {
             
             listadoEdades= String.format("%s%d\n", listadoEdades, edad);
 
-            System.out.println("¿Desea salir del ciclo??; digite: si");
+            System.out.println("¿Desea salir del ciclo?; digite: si");
             entrada.nextLine();
             salir = entrada.nextLine().toLowerCase();
             if(salir.equals("si")){
